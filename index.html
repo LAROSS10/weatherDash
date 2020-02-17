@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <title>Weather Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1 class="header">Weather Dashboard</h1>
+    <div class="grid-container">  
+
+      
+        <div class="weatherBox">
+          <input class="input" type="text" Name="EnterCity" placeholder="Please Enter City">
+          <button class="btn btn-outline-info">Enter</button> 
+          
+  <div>
     
-</body>
+    <ul id ="citysearch" class="list-group">
+      <li id="cityQuest1" class="list-group-item"></li>
+      <li id="cityQuest2" class="list-group-item"></li>
+      <li id="cityQuest3"class="list-group-item"></li>
+      <li id="cityQuest4"class="list-group-item"></li>
+      <li id="cityQuest5"class="list-group-item"></li>
+    </ul>
+  </div>   
+        </div>
+
+            
+          <div class="table">
+        <table >
+          <thead>
+            <tr>
+              <!-- The scope attribute specifies that this is a header for a column -->
+              <th scope="col">City</th>
+              <th scope="col">Humidity</th>
+              <th scope="col">Temp</th>
+              <th scope="col">Windspeed</th>
+              <th scope="col">UVI</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            </tbody>
+            </table>
+            </div>
+
+            
+     
+            
+
+ <div class="fiveDay1">
+   <img src="sunshine.jpg" alt="sunshine" height="50px" width="50px">
+   <p id="date6">Date:</p>
+   <p id="temp6">Temp:</p>
+   <p id= "humidity6">Humidity:</p>
+ </div>          
+
+ <div class="fiveDay2">
+  <img src="sunshine.jpg" alt="sunshine" height="50px" width="50px">
+  <p id="date14">Date:</p>
+  <p id="temp14">Temp:</p>
+  <p id="humidity14">Humidity:</p>
+ </div>           
+
+ <div class="fiveDay3">
+  <img src="sunshine.jpg" alt="sunshine" height="50px" width="50px">
+  <p id="date22">Date:</p>
+  <p id ="temp22">Temp:</p>
+  <p id= "humidity22">Humidity:</p>
+ </div>           
+
+ <div class="fiveDay4">
+  <img src="sunshine.jpg" alt="sunshine" height="50px" width="50px">
+  <p id="date30">Date:</p>
+  <p id="temp30">Temp:</p>
+  <p id="humidity30">Humidity:</p>
+ </div>           
+
+ <div class="fiveDay5">
+  <img src="sunshine.jpg" alt="sunshine" height="50px" width="50px">
+  <p id="date38">Date:</p>
+  <p id="temp38">Temp:</p>
+  <p id="humidity38">Humidity:</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+     
+      
+        
+    <script src="script.js"></script>
+  </body>
 </html>
